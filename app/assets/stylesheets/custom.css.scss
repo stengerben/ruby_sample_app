@@ -157,6 +157,14 @@ input, textarea, select, .uneditable-input {
   margin-bottom: 15px;
   @include box_sizing;
 }
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
 
 input {
   height: auto !important;
@@ -175,4 +183,9 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
